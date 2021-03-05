@@ -1,5 +1,7 @@
 这是一个文件过滤驱动，代码基于https://blog.csdn.net/wishfly/article/details/90023097
 
+思想来自：https://www.youtube.com/watch?v=HFO8GCGQcUc
+
 该驱动默认工作的环境为 win10 x64 1709   如果需要在别的环境运行需要将代码中所有的PROC + 0x450改成对应操作系统判断对应进程名偏移然后进行编译。  
 
 因为是拿普通进程token去判断 所以需要以普通权限运行test.exe才开始工作，test.exe是一个死循环，避免进程结束，像这样
