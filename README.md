@@ -33,6 +33,8 @@ BoomUsersMove.txt 记录可能被符号链接劫持文件移动的信息
 
 copyfile被记录在BoomUsersCreate.txt ，因为copyfile不是设置文件信息，这种情况需要分析文件是怎么创建的。   
 
-此驱动并不完全准确，是否可利用需要您自己去看，而怎么去看需要经验和尝试。
+因为我不是开发专家，此驱动并不完全准确，是否可利用需要您自己去看，而怎么去看需要经验和尝试。
+
+![](https://github.com/y5s5k5/code/blob/main/%E5%9B%BE%E5%83%8F%208.png)  
 
 
