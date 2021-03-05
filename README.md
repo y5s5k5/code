@@ -9,7 +9,7 @@ void main(){
 while(1){};
 }
 
-如果你想过滤windows自带进程的IRP，代码中这样的代码可以注释掉，我在Windows比较早的版本前光是挂着就可以记录非常多windows自身的危险行为，但在20h2上，如果什么都不做，我一个都记录不到了。  
+如果您想过滤windows自带进程的IRP，代码中这样的代码可以注释掉，我在Windows比较早的版本前光是挂着就可以记录非常多windows自身的危险行为，但在20h2上，如果什么都不做，我一个都记录不到了。  
     if (!strcmp(NAME, "mscorsvw.exe")  
         || !strcmp(NAME, "svchost.exe")    
         || !strcmp(NAME, "ngen.exe")   
